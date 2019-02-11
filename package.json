@@ -10,14 +10,8 @@
     "bd": "npm run build && npm run deploy"
   },
   "deploy": {
-    "destinations": [
-      {
-        "src": "./dist/ -r",
-        "dest": "eltanin.uberspace.de:/home/skyline/html/rsync",
-        "name": "eltanin.uberspace.de",
-        "alias": "eltanin-uberspace"
-      }
-    ]
+    "src": "./dist/ -r",
+    "dest": "eltanin.uberspace.de:/home/skyline/html/rsync"
   },
   "dependencies": {
     "deploy-rsync": "^2.3.1",
