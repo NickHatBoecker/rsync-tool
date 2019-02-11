@@ -72,6 +72,12 @@
                     ></v-textarea>
                 </v-container>
             </v-form>
+
+            <p>
+                @ <a href="https://github.com/theskyliner/rsync-tool">GitHub</a><br>
+                @ <a href="https://twitter.com/nickhatboecker">Twitter</a><br>
+                &copy; 2019
+            </p>
         </v-container>
     </v-app>
 </template>

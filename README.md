@@ -1,5 +1,7 @@
 # rsync-tool
 
+https://github.com/theskyliner/rsync-tool
+
 ## Project setup
 ```
 npm install
